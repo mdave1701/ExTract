@@ -19,12 +19,15 @@ Run with Jupyter Notebook:
 
 Run as an interactive prompt:
 
+* (Windows) Run .\activate_venv.ps1 to activate the virtual environment if you chose to install it. 
+	Don't forget to run deactivate_venv.ps1 once you're done.
 * Simply execute "python CMD_TextSummarizer.py" in the terminal to start an interactive prompt.
 
 Run as a non-interactive command:
 
+* (Windows) Run .\activate_venv.ps1 to activate the virtual environment if you chose to install it. 
+	Don't forget to run deactivate_venv.ps1 once you're done.
 * python CMD_TextSummarizer.py [space_separated_list_of_links] -s [number_of_sentences]
-
 * If no "-s" flag is given along with links, a default of 5 sentence summaries will be used.
 
 NOTE FOR LINUX USERS:
