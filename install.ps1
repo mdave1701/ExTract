@@ -54,6 +54,11 @@ python -m pip install lxml
 Write-Output 'lxml successfully installed.'
 
 Write-Output ''
+Write-Output 'Installing pyttsx3...'
+python -m pip install pyttsx3
+Write-Output 'pyttsx3 successfully installed.'
+
+Write-Output ''
 Write-Output 'Downloading GloVe embeddings...'
 Invoke-WebRequest -Uri www.screenjunkie.life/textsum/glove.6B.100d.txt -OutFile .\glove.6B.100d.txt # download
 Write-Output 'GloVe embeddings successfully downloaded.'
