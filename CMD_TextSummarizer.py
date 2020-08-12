@@ -18,6 +18,7 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 import networkx as nx
 import lxml
+import pyttsx3
 
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
@@ -227,6 +228,23 @@ def generate_summary_GloVe(scores, sents, numSents):
     return summary
 
 
+# ### Read the Summary
+
+# In[7]:
+
+
+def read_summary(BoW_summary, TR_summary):
+    ans = input("\nWould you like me to read you the summary? <y/n>").lower()
+    if ans == 'no' or ans == 'n':
+        return
+    engine = pyttsx3.init() # object creation
+    engine.setProperty('rate', 175)
+    engine.say(BoW_summary)
+    engine.runAndWait()
+    engine.save_to_file(BoW_summary, 'summary.mp3')
+    engine.runAndWait()
+
+
 # ### Driver Code
 
 # In[21]:
@@ -256,6 +274,7 @@ print("\n\nTextRank Model:\n")
 print(summary_glove)
 print("")
 
+read_summary(summary_word_freq, summary_glove)
 
 # ## Summary
 # 
