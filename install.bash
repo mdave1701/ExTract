@@ -11,6 +11,7 @@ python3 -m pip install sklearn # I think discovered dependency? Or maybe it was 
 python3 -m pip install networkx # discovered dependency
 python3 -m pip install lxml # discovered dependency. this one also requires linux users to isntall the python-lxml package.
 python3 nltk_setup.py # nltk was insistent on having me download some files lol. this runs the py script to do that. 
+python3 -m pip install pyttsx3
 # Bottom line, anything that I added here was based solely on error messages that python gave me while
 # I tried to run the jupyter notebook. Only this exact setup was sufficient for the code to run on my
 # system without complaining. 
