@@ -15,7 +15,7 @@ Instead of giving a summary of a standard length, ExTract gives the user the cho
 Please refer to the "HOW_TO_RUN.md" file for instructions on how to use this program.
 
 ## Scope for Further Improvement
-Currently, I am trying to improve the quality of the summaries by implementing abstractive text summarization techniques like GPT-2 and/or BeRT. I am also trying to convert the jupyter notebook file to command-line app, so that the users get some sort of UI and don't have to start jupyter notebook every time. 
+Currently, I am trying to improve the quality of the summaries by implementing abstractive text summarization techniques like GPT-2 and/or BERT. I am also trying to convert the jupyter notebook file to command-line app, so that the users get some sort of UI and don't have to start jupyter notebook every time. 
 
 A more long term goal for this project is to be able to handle text in PDF format, in addition to web-based articles. This is especially useful for academics and researchers, who need to understand the gist of an article quickly to decide whether it will be useful in their research.
 
