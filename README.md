@@ -19,4 +19,4 @@ Currently, I am trying to improve the quality of the summaries by implementing a
 
 A more long term goal for this project is to be able to handle text in PDF format, in addition to web-based articles. This is especially useful for academics and researchers, who need to understand the gist of an article quickly to decide whether it will be useful in their research.
 
-I am always open to collaboration. If you would like to contribute to this project, then please me at malavdave@lewisu.edu :blush:. 
+I am always open to collaboration. If you would like to contribute to this project, then please email me at malavdave@lewisu.edu :blush:. 
