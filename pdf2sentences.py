@@ -23,3 +23,6 @@ def pdf2sentences(pdf):
 # My hunch is that when those factors are all considered, we should be able to predict whether a list entry
 # is a body sentence or not. Question is, what do we use to make these predictions? Multiple regression?
 # I will look into it more, but feel free to share ideas if something pops to mind!
+
+sents = pdf2sentences('C:\Users\malav\Desktop\spatial-transformer-networks.pdf')
+print(sents)

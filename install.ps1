@@ -60,7 +60,7 @@ Write-Output 'pyttsx3 successfully installed.'
 
 Write-Output ''
 Write-Output 'Installing pdfminer.six'
-python -m pip install pdfminer.siz
+python -m pip install pdfminer.six
 Write-Ouptut 'pdfminer.six successfully installed.'
 
 Write-Output ''
